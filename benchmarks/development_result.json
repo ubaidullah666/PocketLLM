@@ -1,0 +1,17 @@
+{
+  "strict": {
+    "prefill_seconds_median": 0.10062301400012075,
+    "total_seconds_median": 0.28246506699997553,
+    "logical_weight_bytes_read_median": 34658304,
+    "prefill_batch": 32,
+    "weight_cache_bytes": 0
+  },
+  "smart": {
+    "prefill_seconds_median": 0.025355110999953467,
+    "total_seconds_median": 0.1746810140002708,
+    "logical_weight_bytes_read_median": 22024704,
+    "prefill_batch": 256,
+    "weight_cache_bytes": 524288
+  },
+  "note": "Tiny random Llama; 128 prompt tokens + 8 decode passes; CPU; OS file cache warm. No claim about large models or user hardware."
+}

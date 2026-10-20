@@ -1,0 +1,6 @@
+-r requirements.txt
+# Install a CPU or CUDA PyTorch build for your machine before this file.
+torch>=2.6,<2.7
+transformers==4.57.1
+accelerate>=1.10,<2
+safetensors>=0.6,<0.8
